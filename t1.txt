@@ -1,0 +1,8 @@
+Schema SQL                                                                                                                        Query SQL                                                    
+create table student(usn integer primary key, name varchar(4), phoneno integer, branch varchar(3));                     select *from student
+insert into student values(100,'amy',227456,'cse'); 
+insert into student values(101,'mia',245356,'ise');
+insert into student values(102,'nia',256367,'me');    
+insert into student values(103,'ria',265478,'ae');   
+insert into student values(104,'sia',253647,'ece'); 
+
