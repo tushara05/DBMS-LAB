@@ -1,0 +1,7 @@
+Schema SQL                                                                                                                                            Query SQL                                                                                create table BOOK(BOOK_ID integer primary key,TITLE varchar(20),                            select *from BOOK where BOOK_ID=04
+PUBLISHER_NAME varchar(20),PUB_YEAR varchar(20));
+insert into BOOK values(01,'DBMS','ABC',1990);
+insert into BOOK values(02,'CNS','DEF',1991);
+insert into BOOK values(03,'ADP','GHI',1992);
+insert into BOOK values(04,'ATC','JKL',1993);
+insert into BOOK values(05,'UP','MNO',1994);                                                                                                              
